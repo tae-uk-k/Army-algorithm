@@ -1,6 +1,4 @@
-#include <iostream>
-#include <cmath>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
@@ -8,8 +6,6 @@ int main() {
     
     cin >> x >> y >> w >> h;
     
-    int result = min({x, y, w - x, h - y});
-    
-    cout << result;
+    cout << min({x, y, w - x, h - y});;
     return 0;
 }
